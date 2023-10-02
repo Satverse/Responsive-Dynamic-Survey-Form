@@ -48,6 +48,6 @@ Learn more about Hacktoberfest and how to get involved by visiting the official 
 
 ### Organizer
 
-This repository is maintained by [krishnapatidar458](https://github.com/krishnapatidar458). If you have any questions or need assistance, feel free to reach out.
+This repository is maintained by [Satverse](https://github.com/Satverse). If you have any questions or need assistance, feel free to reach out.
 
 Thank you for being a part of Hacktoberfest 2023, and happy coding!
