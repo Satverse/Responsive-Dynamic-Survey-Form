@@ -14,7 +14,7 @@ Welcome to the "Build a Survey Form" project! This project is designed to help y
 
 Looking to contribute with some high-quality code? You're in the right place!
 
-[Check out the Guidelines](https://github.com/krishnapatidar458/Responsive-Dynamic-Survey-Form/blob/main/CONTRIBUTING.md)
+[Check out the Guidelines](https://github.com/Satverse/Responsive-Dynamic-SurveyForm/blob/main/CONTRIBUTING.md)
 
 Feel free to edit this README to make it more attractive and informative!
 
@@ -43,7 +43,7 @@ If you're new to open source or an experienced contributor, Hacktoberfest is a f
 
 ## Get Started
 
-Ready to dive in? Explore our [Hacktoberfest Issues](https://github.com/krishnapatidar458/hacktoberfest2023/issues) to find tasks you can work on right away.
+Ready to dive in? Explore our [Hacktoberfest Issues](https://github.com/Satverse/Responsive-Dynamic-SurveyForm/issues) to find tasks you can work on right away.
 
 Remember, Hacktoberfest is not just about quantity but also quality contributions. Make a positive impact on the open-source community!
 
@@ -51,7 +51,7 @@ Remember, Hacktoberfest is not just about quantity but also quality contribution
 
 ### Organizer
 
-This repository is maintained by [krishnapatidar458](https://github.com/krishnapatidar458/). If you have any questions or need assistance, feel free to reach out.
+This repository is maintained by [Satverse](https://github.com/Satverse). If you have any questions or need assistance, feel free to reach out.
 
 Let's make Hacktoberfest 2023 memorable together! 🚀
 
