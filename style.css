@@ -1,0 +1,73 @@
+/* Styling the Body element i.e. Color,
+        Font, Alignment */
+body {
+    background-color: rgb(237, 188, 213);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    color: black;
+    text-transform: uppercase;
+}
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom:10px;
+    /* font-weight: bold; */
+}
+
+#label-name,#label-email,#label-age,#label-role{
+    /* font-weight: bold; */
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/* Styling form-control input,
+        select, textarea */
+.form-control input,.form-control select,.form-control textarea {
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    /* text-align: center; */
+}
+
+/* Styling form-control Radio
+        button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+button {
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: white;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
