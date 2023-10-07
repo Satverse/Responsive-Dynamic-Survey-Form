@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Servey Form</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Survey Form</h1>
+        <form id="survey-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label>How satisfied are you with our services?</label>
+            <input type="radio" id="satisfaction-1" name="satisfaction" value="Very Satisfied">
+            <label for="satisfaction-1">Very Satisfied</label>
+            <input type="radio" id="satisfaction-2" name="satisfaction" value="Satisfied">
+            <label for="satisfaction-2">Satisfied</label>
+            <input type="radio" id="satisfaction-3" name="satisfaction" value="Neutral">
+            <label for="satisfaction-3">Neutral</label>
+            <input type="radio" id="satisfaction-4" name="satisfaction" value="Dissatisfied">
+            <label for="satisfaction-4">Dissatisfied</label>
+            <input type="radio" id="satisfaction-5" name="satisfaction" value="Very Dissatisfied">
+            <label for="satisfaction-5">Very Dissatisfied</label>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
