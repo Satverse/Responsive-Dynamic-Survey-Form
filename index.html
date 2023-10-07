@@ -1,13 +1,157 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Servey Form</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Servey Form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body style="background: linear-gradient(135deg, #ff5db1 60%, #ef017c 73%)">
+    <div class="container-fluid">
+      <div class="container m-auto">
+        <div class="row">
+          <h3 class="text-center mt-3">HacktoberFest Survey Form</h3>
+          <div class="offset-sm-3 col-sm-6 offset-sm-3">
+            <!-- Form start here -->
+
+            <form class="mt-2 shadow-lg" id="form">
+              <br />
+
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                class="form-control w-75 m-auto"
+                placeholder="Enter Your First Name"
+                required
+              />
+              <br />
+
+              <input
+                type="text"
+                name="LastName"
+                id="LastName"
+                class="form-control w-75 m-auto"
+                placeholder="Enter Your Last Name"
+              />
+              <br />
+              <input
+                type="email"
+                name="Email"
+                id="Email"
+                class="form-control w-75 m-auto"
+                placeholder="Enter Your Email"
+                required
+              />
+              <br />
+              <input
+                type="tel"
+                name="mobile"
+                id="mobile"
+                class="form-control w-75 m-auto"
+                placeholder="Enter Your Mobile Number"
+                required
+              />
+              <br />
+              <input
+                type="text"
+                name="github"
+                id="github"
+                class="form-control w-75 m-auto"
+                placeholder="Enter Your Github Id"
+                required
+              />
+              <br />
+              <input
+                type="number"
+                name="contro"
+                id="contro"
+                class="form-control w-75 m-auto"
+                placeholder="Number of Contribution"
+                required
+              />
+              <br />
+              <input
+                type="number"
+                name="pull"
+                id="pull"
+                class="form-control w-75 m-auto"
+                placeholder="Number of pull requests"
+                required
+              />
+              <br />
+
+              <input
+                type="text"
+                name="solved"
+                id="Linkedin"
+                class="form-control w-75 m-auto"
+                placeholder="Enter your Linkedin id"
+              />
+              <br />
+              <div class="d-flex justify-content-start w-75 m-auto">
+                <label action="Profession"
+                  >Are You &nbsp;&nbsp;&nbsp;
+                  <select name="Profession" id="Profession">
+                    <option value="select an option">select an option</option>
+                    <option value="1" id="student">Student</option>
+                    <option value="2">Working Professional</option>
+                    <option value="3">Open Source Contributor</option>
+                  </select>
+                </label>
+              </div>
+              <br />
+              <div class="d-flex justify-content-start w-75 m-auto">
+                <div class="">
+                  <label for="Gender">Gender</label> &nbsp;&nbsp;
+                  <input type="radio" name="Gender" value="male" id="male" />
+                  Male &nbsp;&nbsp;&nbsp;
+                  <input
+                    type="radio"
+                    name="Gender"
+                    value="female"
+                    id="female"
+                  />
+                  Female
+                </div>
+              </div>
+              <br />
+              <div class="d-flex justify-content-start w-75 m-auto p-2">
+                <button type="submit" class="btn btn-success shadow-lg">
+                  Submit
+                </button>
+              </div>
+            </form>
+            <!-- Form End Here -->
+
+            <!-- Toast Section -->
+            <div
+              class="toast align-items-center text-bg-primary border-0 position-fixed top-0 end-0"
+              role="alert"
+              aria-live="assertive"
+              aria-atomic="true"
+            >
+              <div class="d-flex">
+                <div class="toast-body">Form is Successfully submitted.</div>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white me-2 m-auto"
+                  data-bs-dismiss="toast"
+                  aria-label="Close"
+                ></button>
+              </div>
+            </div>
+
+            <!-- toast end here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
