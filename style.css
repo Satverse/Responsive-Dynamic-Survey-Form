@@ -1,8 +1,14 @@
+body{
+    background:linear-gradient(#F3E5F5,#807400);
+    /* background-image:url(hf10_wallpaper_sponsors_1920x1080.png);
+    background-size: 100% 100%; */
+}
+
 .form-control{
     outline:1px solid black ;
 }
 #form{
-
+    border-radius: 12px;
     outline:1px solid black;
 }
 #Profession{
@@ -13,3 +19,4 @@
 .btn{
     padding:6px 10px;
 }
+
