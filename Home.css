@@ -7,16 +7,24 @@ body{
 .form-control{
     outline:1px solid black ;
 }
+
+
 #form{
     border-radius: 12px;
     outline:1px solid black;
 }
+
+
 #Profession{
     padding:2px 4px;
     outline:1px solid black;
     border-radius:5px;
 }
+
+
 .btn{
     padding:6px 10px;
 }
+
+
 
