@@ -20,8 +20,6 @@ Feel free to edit this README to make it more attractive and informative!
 
 </div>
 
-![logo](https://github.com/krishnapatidar458/hacktoberfest2023/assets/103871719/47e3a67d-ec2a-4874-8ff2-e164324f1170)
-
 Creating a survey form is a common task in web development. This project provides you with an opportunity to build a simple yet functional survey form using HTML for the structure and CSS for styling and more technologies to develop it. By contributing to this project, you can gain hands-on experience, improve your coding skills, and collaborate with other developers.
 
 Feel free to add additional features or improvements to make the project even more impressive.
